@@ -57,11 +57,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.laper)) 
                     user.laper = 100
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 1000
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.joinlimit)) 
-                    user.joinlimit = 1
+                    user.joinlimit = 100
                 if (!isNumber(user.pc)) 
                     user.pc = 0
                 if (!isNumber(user.ojekk)) 
@@ -97,14 +97,14 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.bannedDate)) 
                     user.bannedDate = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 1
                 if (!('role' in user))
                     user.role = 'Beginner'
                 if (!('autolevelup' in user))
                     user.autolevelup = true
 
                 if (!isNumber(user.money))
-                    user.money = 0
+                    user.money = 10000
                 if (!isNumber(user.atm))
                     user.atm = 0
                 if (!isNumber(user.fullatm))
@@ -351,11 +351,11 @@ if (!isNumber(user.ayam)) user.ayam = 0
                 if (!user.lbars) 
                     user.lbars = '[▒▒▒▒▒▒▒▒▒]'
                 if (!isNumber(user.joinlimit))
-                    user.joinlimit = 0
+                    user.joinlimit = 100
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 20,
+                    limit: 1000,
                     lastclaim: 0,
                     registered: false,
                     spammer: 0,
@@ -367,7 +367,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     laper: 100,
                     stamina : 100,
                     pc : 0,
-                    joinlimit: 1,
+                    joinlimit: 100,
                     coin: 0,
                     age: -1,
                     regTime: -1,
@@ -377,7 +377,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     banned: false,
                     warn: 0,
                     warning: 0,
-                    level: 0,
+                    level: 1,
                     role: 'Beginner',
                     autolevelup: false,
                     rumahsakit: 0,
@@ -394,7 +394,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     BannedReason: '',
 
 
-                    money: 0,
+                    money: 10000,
                     bank: 0,
                     atm: 0,
                     fullatm: 0,
@@ -555,7 +555,7 @@ esteh: 0,
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -579,7 +579,7 @@ esteh: 0,
                 if (!('simi' in chat))
                     chat.simi = false
                 if (!('nsfw' in chat))
-                    chat.nsfw = false
+                    chat.nsfw = true
                 if (!('premnsfw' in chat))
                     chat.premnsfw = false
                 if (!isNumber(chat.expired))
@@ -587,7 +587,7 @@ esteh: 0,
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
@@ -600,7 +600,7 @@ esteh: 0,
                     antiBadword: false,
                     simi: false,
                     expired: 0,
-                    nsfw: false,
+                    nsfw: true,
                     premnsfw: false,
                 }
           conn.resize = async(buffer, ukur1, ukur2) => {
@@ -611,7 +611,7 @@ esteh: 0,
     })
 }
           global.kontak2 = [
-        ['6288279268363', 'ᴹᴿ᭄ King Of Bearr ×፝֟͜×', 'Creator Bot', 'Creator Bot', true],
+        ['6283802603905', 'ᴹᴿ᭄ King Of love ×፝֟͜×', 'Creator Bot', 'Creator Bot', true],
         [`${nomorown}`, `${nameown}`, 'Owner Bot', 'Owner Bot', true]
         ]
             let settings = global.db.data.settings[this.user.jid]
