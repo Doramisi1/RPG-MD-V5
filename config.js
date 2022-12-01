@@ -46,13 +46,13 @@ global.psaweria = 'https://saweria.co/raraharsita2'
 /*============== NOMOR ==============*/
 global.nomorbot = '17326319049'
 global.nomorown = '6288279268363'
-global.namebot = 'Yuki Adistyラ'
-global.nameown = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.namebot = 'pemburu cintaラ'
+global.nameown = 'ᴹᴿ᭄ King Of love ×፝֟͜×'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288279268363', 'ᴹᴿ᭄ King Of Bear ×፝֟͜×', 'true']
+  ['6288279268363', 'ᴹᴿ᭄ King Of love ×፝֟͜×', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,16 +102,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'Yuki Adistyラ | By ᴹᴿ᭄ King Of Bear ×፝֟͜×' //Main Watermark
-global.wm2 = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
-global.wm3 = 'Yuki Adistyラ | By ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.wm = 'jangan di malingラ | By ᴹᴿ᭄ King Of love ×፝֟͜×' //Main Watermark
+global.wm2 = 'ᴹᴿ᭄ King Of love ×፝֟͜×'
+global.wm3 = 'cie mau malingラ | By ᴹᴿ᭄ King Of love ×፝֟͜×'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Yuki Adistyラ | ʙʏ ${global.nameown}`
-global.author = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×' 
-global.packname = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.titlebot = `Owner tersayangラ | ʙʏ ${global.nameown}`
+global.author = 'ᴹᴿ᭄ King Of love ×፝֟͜×' 
+global.packname = 'ᴹᴿ᭄ King Of love ×፝֟͜×'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'November 4 2022'
+global.ultahowner = 'Februari 18 2022'
 
 
 /*============== LOGO ==============*/
@@ -128,12 +128,12 @@ global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
 global.umurowner = '22'
-global.asalowner = 'Amerika Serikat, New York'
+global.asalowner = 'Indonesia, sumatra'
 global.nomorowner = 'wa.me/6288279268363'
 global.pacarowner = 'Kepo amat sih;v'
 
 /*============== TEXT ==============*/
-global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
+global.wait = '``sabar ya lagi di proses...```'
 global.eror = '```𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 𝟰𝟬𝟰 𝙀𝙧𝙤𝙧```'
 
 /*=========== TYPE DOCUMENT ===========*/
@@ -379,7 +379,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
 global.stickpack = 'ᴍᴀᴅᴇ ʙʏ'
-global.stickauth = `King Of Bear`
+global.stickauth = `jangan di maling @king of love`
 
 global.multiplier = 38 // The higher, The harder levelup
 
