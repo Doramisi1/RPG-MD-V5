@@ -41,7 +41,7 @@ let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan di
   let buttonMessage= {
 'document':{'url':'https://youtu.be/hklv-Ysqqac'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ King Of love ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
@@ -52,7 +52,7 @@ let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan di
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+'body':`⚘ by ᴹᴿ᭄ King Of love ×፝֟͜×`,
 'thumbnail': await(await fetch(thumb)).buffer(),
 'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
 'caption':cap,
