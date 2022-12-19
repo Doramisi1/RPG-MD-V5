@@ -31,32 +31,32 @@ global.sig = 'https://instagram.com/drak_ipul123'
 global.syt = 'https://youtu.be/pwLZpdfO8AU'
 global.sgh = 'https://github.com/Doramisi1'
 global.sgc = 'https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL'
-global.swa = 'wa.me/6281368176386'
+global.swa = 'wa.me/6283849469400'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '6281368176386'
+global.pdana = '6283849469400'
 global.povo = '-'
-global.pgopay = '6281368176386'
+global.pgopay = '6283849469400'
 global.ppulsa = '-'
 global.ppulsa2 = '-'
 global.psaweria = 'https://saweria.co/raraharsita2'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '628388986298'
-global.nomorown = '6281368176386','6283802603905'
+global.nomorown = '6283849469400','6283802603905'
 global.namebot = 'pemburu cintaラ'
 global.nameown = 'ᴹᴿ᭄ King Of love ×፝֟͜×'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281368176386', 'ᴹᴿ᭄ King Of love ×፝֟͜×', 'true']
+  ['6283849469400', 'ᴹᴿ᭄ King Of love ×፝֟͜×', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['6283849469400','6283802603905'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
@@ -129,7 +129,7 @@ global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 global.nameowner = 'ᴹᴿ᭄ King Of love ×፝֟͜×'
 global.umurowner = '22'
 global.asalowner = 'Indonesia, sumatra'
-global.nomorowner = 'wa.me/6281368176386'
+global.nomorowner = 'wa.me/6283849469400'
 global.pacarowner = 'Kepo amat sih;v'
 
 /*============== TEXT ==============*/
